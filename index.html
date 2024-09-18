@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Média, Moda e Mediana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./icon.png" type="image/png">
+</head>
+<body>
+    <main id="container">
+        <section id="img">
+            <img src="./background-image.svg" alt="Imagem">
+        </section>
+
+        <section id="calculator">
+            <form id="form">
+                <h1 id="titulo">Insira os números (separados por vírgula):</h1>
+                <input id="numeros" type="text" placeholder="Ex: 1,2,3,4,5">
+                <button id="calcular" type="button">Calcular</button>
+
+                <div id="resultados">
+                    <h2>Média:</h2>
+                    <span id="media"></span>
+                    <br>
+                    <h2>Moda:</h2>
+                    <span id="moda"></span>
+                    <br>
+                    <h2>Mediana:</h2>
+                    <span id="mediana"></span>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
